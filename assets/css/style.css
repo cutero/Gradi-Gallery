@@ -1,0 +1,50 @@
+.main-logo, .logo-white {
+	text-align: center;
+}
+
+.main-logo {
+	margin: 70px 0 35px;
+}
+.logo-white {
+	padding: 20px 0 20px;
+}
+.item-box {
+	padding: 20px;
+	-webkit-clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
+	clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
+	margin-bottom: -80px;
+	text-align: center;
+	overflow: hidden;
+	transition: all 0.5s ease;
+	height: 325px;
+}
+.item-box:hover {
+	background: #00D664 !important;
+	background-image: transparent !important;
+}
+.column {
+	padding: 0.4rem;
+}
+body, button, input, select, textarea {
+	font-family: Roboto;
+}
+.item-id, .item-author {
+	color: #fff;
+}
+.item-id {
+	text-align: right;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 20px;
+}
+.item-author {
+	font-size: 18px;
+	text-align: left;
+}
+.item-box > div {
+	opacity: 0;
+}
+.item-box:hover > div {
+	opacity: 1;
+	cursor: pointer;
+}
