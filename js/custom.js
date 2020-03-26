@@ -11,7 +11,7 @@ request.onload = function() {
 
         html += "<div class='main-logo'><img src='assets/img/logo-full.png' alt='Logo' width='400'></div>";
    
-        for (var i=0; i < 24; i++) {
+        for (var i=0; i < data.length; i++) {
 
             if ((i % 4) == 0) html += "<div class='columns'>";
             
@@ -33,7 +33,7 @@ request.onload = function() {
 	  
       document.getElementById('wm-grid').innerHTML = html;
 	  
-      console.log(data.length);
+      //console.log(data.length);
       console.log(data);
     
   } else {
